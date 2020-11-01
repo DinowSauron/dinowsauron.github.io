@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', cursive, sans-serif;
+    color: #fff;
+}
+body{
+    background: #2e588f;
+}
+header{
+    /* position: fixed; */
+    max-width: 100%;
+    min-height: 55px;
+    background: #3b3b3b;
+    padding: 20px;
+
+    display: flex;
+    align-items: baseline;
+}
+header h1{
+    font-size: clamp(10pt,3vw,30pt);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header p{
+    margin: 10px;
+}
+
+
+/*Luiz Claudio*/
+section.information{
+    position: relative;
+    background: #222325;
+    padding: 20px;
+    transform: scale(1);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    transition: 600ms;
+    z-index: 0;
+}
+section.information img{
+    min-width: 70vw;
+    height: 30vw;
+    background: #2e588f;
+}
+
+.description{
+    position: relative;
+    display: block;
+    align-items: baseline;
+    padding: 0 20px;
+    height: 100%;
+}
+.description h1{
+    top: 0;
+    font-size: 30pt;
+}
+.description hr{
+    margin-bottom: 20px;
+}
+.description p{
+    padding: 5px;
+    font-size: 12pt;
+    border-radius: 10px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    height: 60%;
+    background: rgb(46, 46, 46);
+}
+.information .description img {
+    background: none;
+    min-width: 0;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+/* Desktop Version */
+@media (min-width: 1250px){
+    section.information img{
+        min-width: clamp(560px,40vw,700px);
+        height: clamp(280px,20vw,350px);
+    }
+    section.information{
+    height: clamp(280px,20vw,350px);
+    }
+    section.information{
+        flex-direction: row;
+    }
+}
