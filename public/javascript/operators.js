@@ -1,3 +1,8 @@
+
+function blockGrab(){
+    const images = document.querySelectorAll('img');
+    images.forEach((img) => {img.style.pointerEvents = "none";});
+}
 function loadJSON(path, success, error)
 {
     /* Retorna um valor assincrono */
