@@ -13,10 +13,11 @@
     box-shadow: -1px -1px 10px #0005;
     border-radius: 50px;
 
-    width: 48%;
-    margin: 0;
+    width: 45%;
+    margin: auto;
     text-align: center;
     text-decoration: none;
+    font-size: clamp(8pt, 2.2vw, 12pt);
     transition: 200ms;
 }
 .description .buttons a.active{

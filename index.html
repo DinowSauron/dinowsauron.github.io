@@ -16,14 +16,17 @@
             <p>Explore pelos meus repositorios publicos!</p>
         </header>
         <section class="information">
-            <img src="" alt="Foto Principal">
+            <div class="image">
+                <img src="" alt="Foto Principal">
+                <iframe src="./frame.html" frameborder="0"></iframe>
+            </div>
             <div class="description">
-                <h1><img src="./public/pictures/favicon.svg"> Test local legacy folder</h1>
+                <h1><img src="./public/pictures/favicon.svg"> <span>Test local legacy folder</span></h1>
                 <hr>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto modi corporis laboriosam voluptas mollitia, rerum cupiditate nemo dignissimos ducimus! Sit molestias repellendus aperiam dolorum voluptatibus recusandae ex laborum odit! Labore!</p>
+                <textarea readonly> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto modi corporis laboriosam voluptas mollitia, rerum cupiditate nemo dignissimos ducimus! Sit molestias repellendus aperiam dolorum voluptatibus recusandae ex laborum odit! Labore!</textarea>
                 <div class="buttons">
-                    <a href="#" target="_blank">Entre no Repositorio</a> 
-                    <a href="#" target="_blank" class="active">Entre no Site</a>
+                    <a id="btn-repo" href="#" target="_blank">Entre no Repositorio</a> 
+                    <a id="btn-site" href="#" target="_blank" class="active">Entre no Site</a>
                 </div>
             </div>
         </section>
@@ -103,6 +106,11 @@
 
             </div>
         </div>
-        
+        <!-- <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script> -->
+        <script src="./public/javascript/operators.js"></script>
+        <script src="./public/javascript/header.js"></script>
 </body>
 </html>
