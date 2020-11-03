@@ -1,13 +1,9 @@
 var repo = {};
 var updatedItems = false;
 const defultPath = "./projects/";
-const archives = [
-    "mousetester",
-    "pointsmanager"
-];
 
-getRepositories(0);
-
+getRepositories(archives.length - 1);
+/* faça a seleção dos itens dos itens de escolha, sla*/
 
 function setRepo() {
     /* Depois otimiza */
@@ -35,7 +31,7 @@ function getRepositories(index) {
 
 function updateItems(){
     const itemContainer = document.querySelector(".items");
-    for(var i = 0;i < archives.length;i++){
+    for(var i = archives.length - 1;i >= 0;i--){
         createItem(archives[i], i);
     }
     updatedItems = true;
@@ -70,7 +66,7 @@ function updateItems(){
 function updateHeader() {
     const imagePath = defultPath + archives[repo.index];
     const titleElement = document.querySelector(".description h1 span");
-    const textElement = document.querySelector(".description textarea");
+    const textElement = document.querySelector(".description .textarea");
     const mainImage = document.querySelector(".image img");
     const iframeImages = document.querySelector(".image iframe");
 
@@ -79,7 +75,7 @@ function updateHeader() {
 
 
     titleElement.innerHTML = repo.name;
-    textElement.innerHTML = repo.text;
+    textElement.innerHTML = repo.text + "<br>".repeat(4);
     mainImage.setAttribute("src", imagePath + repo.images[0]);
     resolveIframe();
     resolveLinks();
@@ -97,12 +93,13 @@ function updateHeader() {
             const iframeContent = iframeImages.contentWindow.document.body.querySelector(".container");
             iframeContent.innerHTML = "";
 
-            repo.images.forEach(img => {
+            repo.images.forEach((img, index) => {
                 var divPhoto = iframeImages.contentWindow.document.createElement("div");
                 var photo = iframeImages.contentWindow.document.createElement("img");
-        
+                
+                
                 photo.setAttribute("src", imagePath + img);
-                divPhoto.setAttribute("class", "photo");
+                divPhoto.setAttribute("class", index == 0 ? "photo active" : "photo");
                 divPhoto.setAttribute("onclick", "parent.changePicture('"+ imagePath + img +"')");
                 divPhoto.appendChild(photo);
                 iframeImages.contentWindow.document.body.querySelector("div.container").appendChild(divPhoto);    
@@ -124,16 +121,34 @@ function updateHeader() {
 }
 
 function changePicture(picPath){
-    const mainImage = document.querySelector(".image img");
-    mainImage.setAttribute("src", picPath);
+    setImage();
+    setActivePicture();
+
+
+    function setActivePicture(){
+        const iframeImages = document.querySelector(".image iframe");
+        const images = iframeImages.contentWindow.document.body.querySelectorAll(".container div.photo");
+        images.forEach(img => {
+            img.setAttribute("class", "photo");
+            if(img.querySelector("img").getAttribute("src") == picPath){
+                img.classList.toggle("active");
+            }
+        });
+    }
+    
+    function setImage(){
+        const mainImage = document.querySelector(".image img");
+        mainImage.setAttribute("src", picPath);
+    }
 }
 
 function filterItem(filter, useName = false){
-    filter = filter.toLowerCase();
     const boxTags = document.querySelectorAll(".itemBox");
+    filter = filter.toLowerCase();
+    setFilterSelected();
 
     if(filter == "all"){
-        boxTags.forEach((boxTag) => {filterThis(boxTag)});
+        boxTags.forEach(boxTag => {filterThis(boxTag)});
         return;
     }
     if(!useName){
@@ -151,6 +166,15 @@ function filterItem(filter, useName = false){
 
     function filterThis(element){
         element.setAttribute("style", "");
+    }
+
+    function setFilterSelected(){
+        const optionElements = document.querySelectorAll(".selection li.list");
+        optionElements.forEach(option => {
+            option.setAttribute("class", "list");
+            if(option.innerHTML.toLocaleLowerCase() == filter)
+                option.setAttribute("class", "list active");
+        });
     }
 }
 

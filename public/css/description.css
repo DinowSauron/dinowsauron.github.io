@@ -1,0 +1,74 @@
+.description{
+    position: relative;
+    display: block;
+    align-items: baseline;
+    padding: 0 20px;
+    width: 95%;
+    height: 100%;
+}
+.description h1{
+    top: 0;
+    font-size: clamp(15pt, 2.2vw, 30pt);
+}
+.description hr{
+    margin-bottom: 20px;
+}
+.description .textarea{
+    color: #eee;
+    padding: 5px;
+    font-size: 12pt;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #fff;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 98%;
+    height: 200px;
+    background: rgb(46, 46, 46);
+    overflow-y: scroll;
+    resize: none;
+}
+.description .textarea:focus{
+    border-color: #fff;
+    outline: none;
+}
+.information .description img {
+    background: none;
+    min-width: 0;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* test format */
+
+.description .textarea strong{
+    letter-spacing: 2px;
+    background-color: #8885;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0 8px;
+    color: #fff;
+}
+.description .textarea a{
+    color: #4f9bff;
+    transition: 200ms;
+}
+.description .textarea a:hover{
+    color: #91c1ff;
+}
+.description .textarea h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+}
+.description .textarea h3{
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
+.description .textarea hr{
+    margin: 15px 0;
+}
