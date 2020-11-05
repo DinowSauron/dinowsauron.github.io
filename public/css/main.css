@@ -62,7 +62,13 @@ section.information img{
     height: 100%;
     object-fit: cover;
 }
-section.information iframe{
+section.information iframe#video{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+section.information iframe#roller{
     position: relative;
     width: 20%;
     height: 100%;
@@ -95,6 +101,7 @@ footer{
     }
     section.information .image{
         width: clamp(450px,150vw,1880px);
+
         height: clamp(280px,100%,350px);
         margin-bottom: 0px;
     }

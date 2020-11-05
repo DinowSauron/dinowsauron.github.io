@@ -3,7 +3,8 @@
     "text": "<strong>Repositorio em manuntenção!!! </strong><br>Um projeto para gerenciar os <strong>pontos</strong> ganhos por partida em <a href='#' target='blank'>eventos do jogo</a> League Of Legends.<br><br> Este projeto foi criado após uma necessidade do meu irmão. <hr> de gerenciar seus pontos ganhos por vitorias ou derrotas,<h2>** Situação</h2> neste aplicativo <h3>você encontra</h3> um modo de gerenciar os dias e os pontos ganhos para obter uma media e saber seu progresso durante os dias, além de ser uma otima oportunidade para treinar meus conhecimentos de desenvolvimento web!",
     "linkRep": "https://github.com/DinowSauron/Points-Manager-LoL",
     "linkSite": "https://dinowsauron.github.io/Points-Manager-LoL/",
-    "videos": [ ],
+    "videosThumb": [ "/img/video1.png" ],
+    "videos": [ "kRauptdx_Is" ],
     "images": [
         "/img/01.png",
         "/img/02.png",
