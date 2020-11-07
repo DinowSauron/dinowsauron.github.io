@@ -22,7 +22,6 @@
     font-weight: 200;
     letter-spacing: 1px;
     width: 98%;
-    height: 200px;
     background: rgb(46, 46, 46);
     overflow-y: scroll;
     resize: none;
@@ -51,7 +50,9 @@
 }
 .description .textarea a{
     color: #4f9bff;
+    text-decoration: underline;
     transition: 200ms;
+    cursor: pointer;
 }
 .description .textarea a:hover{
     color: #91c1ff;

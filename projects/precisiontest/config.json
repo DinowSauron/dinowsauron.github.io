@@ -1,0 +1,17 @@
+{
+    "name": "Mouse Precision Tester",
+    "text": "O objetivo deste projeto é você testar a sua precisão de cliques com seu mouse e comparar com a dos seus amigos, apenas por diversão, ou para treinar um novo dpi em seu mouse. <br><br> Os pontos vão de 0 a 4000 sendo contado quanto tempo se passa, quantos cliques você errou, e o quanto você moveu seu mause, com todos esses valores podemos estimar uma pontuação. <br><br> Com este projeto simples não tive muitos problemas ao executa-lo, creio que a parte mais dificil deste projeto foi achar o valor maximo para os circulos dar spawn, mais nada muito dificil. Este projeto utiliza localstorage para armazenar 3 dados da sua melhor pontuação que no momento só pdoem ser visualizados após reiniciar a pagina. <hr> Não tem muito oque ser dito, então recomendo que você Entre no Site e vejá por você mesmo o funcionamento do sistema.",
+    "linkRep": "https://github.com/DinowSauron/Mouse-Precision-Test",
+    "linkSite": "https://dinowsauron.github.io/Mouse-Precision-Test/",
+    "videosThumb": [],
+    "videos": [],
+    "images": [
+        "/img/img1.png",
+        "/img/img2.png",
+        "/img/img3.png",
+        "/img/img4.png",
+        "/img/img5.png"
+    ],
+    "tags": ["Learning", "Github Page", "Games"],
+    "other": "<a onclick='parent.changePicture(`./projects/nlw3/img/img1.png`)'>"
+}

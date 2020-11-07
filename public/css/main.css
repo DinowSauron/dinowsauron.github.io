@@ -7,24 +7,32 @@
 }
 body{
     background: #2e588f;
+    height: 100vh;
 }
 header{
     /* position: fixed; */
     max-width: 100%;
     min-height: 45px;
     background: #3b3b3b;
-    padding: 10px 20px;
+    letter-spacing: 2px;
+    /* padding: 10px 20px; */
 
     display: flex;
-    align-items: baseline;
+    align-items: top;
 }
-header h1{
-    font-size: clamp(10pt,3vw,30pt);
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.boxHeader{
+    display: block;
+    min-width: 320px;
+}
+header img{
+    margin: 5px 8px 5px 30px;
+    padding-right: 40px;
+    height: 60px;
+    filter: invert(1);
+    border-right: 1px solid #000;
 }
 header p{
-    margin: 10px;
+    letter-spacing: 1px;
 }
 
 
@@ -54,13 +62,13 @@ section.information{
     margin-bottom: 10px;
 
     /* border: 2px solid #fff; */
-    background: #2e588f;
+    background: #222325;
     display: flex;
 }
 section.information img{
     width: 80%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 section.information iframe#video{
     position: absolute;
@@ -85,7 +93,6 @@ footer{
 
     line-height: 25px;
     padding: 20px;
-    width: 100%;
     height: 50px;
     text-align: center;
 }
@@ -100,12 +107,12 @@ footer{
         box-sizing: border-box;
     }
     section.information .image{
-        width: clamp(450px,150vw,1880px);
+        width: clamp(450px,100vw,1480px);
 
         height: clamp(280px,100%,350px);
         margin-bottom: 0px;
     }
-    .description textarea{
+    .description .textarea{
         height: 60%;
     }
     section.information{

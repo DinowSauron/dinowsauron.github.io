@@ -1,0 +1,21 @@
+{
+    "name": "Google Glass",
+    "text": "Este projeto foi feito com base no Curso de html5 do canal <a href='https://www.youtube.com/c/CursoemV%C3%ADdeo' target='blank'>Curso Em Vídeo</a> de 2013 e realizado por min em 2020. <br><br> Com este tutorial, obtive diversos conhecimentos em html5 e css3 e neste tutorial desenvolvemos um site como clone do google glass(que atualmente eles já possuem u msite diferente) <br><br> Este curso possuí 36 video aulas que somadas passam de 10hrs de curso, estas aulas podem ser encontradas <a href='https://www.youtube.com/c/CursoemV%C3%ADdeo'>Por Aqui</a>. <hr> Apesar se ser um curso antigo (2013) ainda é um curso de HTML5, então o aprendizado foi enorme, e durante meu aprendizado desenvolvi o projeto da nlw3 oque me ajudou bastante também a solidificar algumas ideias em html e css. <br> Apesar de ser um curso de HTML5 e CSS3 eu havia realizado um curso anteriormente, neste canal mesmo de javascript, que também é passado durante estes videos.<br><br>Para mais detalhes sempre Entre No Repositorio no botão que está logo abaixo destes texto!",
+    "linkRep": "https://github.com/DinowSauron/GoogleGlass-UI_Clone",
+    "linkSite": "https://dinowsauron.github.io/GoogleGlass-UI_Clone/",
+    "videosThumb": [],
+    "videos": [],
+    "images": [
+        "/img/img1.png",
+        "/img/img2.png",
+        "/img/img3.png",
+        "/img/img4.png",
+        "/img/img5.png",
+        "/img/img6.png",
+        "/img/img7.png",
+        "/img/img8.png",
+        "/img/img9.png"
+    ],
+    "tags": ["Learning", "Github Page", "UI Clone"],
+    "other": "<a onclick='parent.changePicture(`./projects/nlw3/img/img1.png`)'>"
+}

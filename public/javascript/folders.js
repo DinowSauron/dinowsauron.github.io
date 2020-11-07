@@ -2,8 +2,11 @@
 
 /*Depois crie categorias e junte elas dentro desta variavel*/
 /*mude de false para true para entrar no modo de manuntenção*/
-const archives = true ? ["inprogress"] :
+const archives = false ? ["inprogress"] :
 [
-    "mousetester",
-    "pointsmanager"
+    "perguntefish",
+    "nlw3",
+    "glassgoogle",
+    "precisiontest",
+    "managerpts"
 ];

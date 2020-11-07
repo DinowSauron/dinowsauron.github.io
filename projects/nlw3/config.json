@@ -1,0 +1,22 @@
+{
+    "name": "Next Level Week 3",
+    "text": "Um Projeto feito no evento da RocketSeat NLW(Discovery) para criar um aplicativo coletivamente dentro de uma semana. <br><br> Este projeto foi realizado durante a nlw3, nos dias 12 a 18 de Outubro de 2020, com o objetivo de criar um aplicativo para conectar pessoas com orfanatos, tendo todas as informações necessárias para entrar em contato e fazer uma visita. <br><br> <h2>Funcionalidades</h2> Como de inicio, temos o <a onclick='parent.changePicture(`./projects/nlw3/img/img1.png`)'>menu</a>, podemos apenas seguir a diante, vendo uma pagina com um <a onclick='parent.changePicture(`./projects/nlw3/img/img2.png`)'>mapa e icones</a>, após clicar nestes icones poderemos ver o nome do orfanato, clicando para <a onclick='parent.changePicture(`./projects/nlw3/img/img3.png`)'>entrar no orfanato</a> podemos observar algumas fotos, uma breve descrição, os horarios de atendimento, e <a onclick='parent.changePicture(`./projects/nlw3/img/img5.png`)'>comentarios</a> colocados por outros usuarios(Que não estava incluido no projeto original).<br><br> Além disto podemos adicionar um novo orfanato, colocando todas as informações discutidas anteriormente e a colocar posição dele no mapa, após tudo isto ser feito terá uma breve verificação no servidor e será guardado no banco de dados este orfanato <hr> <br> Sim o projeto precisa de adaptações para poder se tornar utilizavel, como algum tipo de verificação ao adicionar um novo orfanato, e talvez um login para poder ser possivel adicionar um comentário, mais a ideia inicial foi muito bem implementada e com um resultado interresante.<br> <h3>Concluindo</h3> Como personalização, adicionei os comentarios para que você possa dizer oque achou da sua experiencia, mudei um pouco as cores, tentei não deixar muito diferente, pois ainda estava aprendendo html, css...<br><br>Com este projeto aprendi bastante sobre back e front end, além de conhecer o banco de dados myslq, que foi uma novidade para min. Todas as aulas foram online e para complementar haviam lives sobre o conteudos ineditos para a carreira de um programador.",
+    "linkRep": "https://github.com/DinowSauron/Projeto-Next-Level-Week-3",
+    "linkSite": "",
+    "videosThumb": [],
+    "videos": [],
+    "images": [
+        "/img/img1.png",
+        "/img/img2.png",
+        "/img/img3.png",
+        "/img/img4.png",
+        "/img/img5.png",
+        "/img/img6.png",
+        "/img/img7.png",
+        "/img/img8.png",
+        "/img/img9.png",
+        "/img/img10.png",
+        "/img/imgScript.png"
+    ],
+    "tags": ["Learning"]
+}

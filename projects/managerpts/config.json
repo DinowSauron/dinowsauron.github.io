@@ -1,0 +1,19 @@
+{
+    "name": "Gerenciador De Emblemas (LOL)",
+    "text": "Um projeto para gerenciar os pontos ganhos por partida em eventos do jogo League Of Legends. Este projeto foi criado após uma necessidade do meu irmão de gerenciar seus pontos ganhos por vitorias ou derrotas, neste aplicativo você encontra um modo de gerenciar os dias e os pontos ganhos para obter uma media e saber seu progresso durante os dias, além de ser uma otima oportunidade para treinar meus conhecimentos de desenvolvimento web! <br><h2><a onclick='parent.changePicture(`./projects/managerpts/img/img2.png`)'>Pagina Inicial</a></h2> Nesta pagina temos um sistema de login, que pega as informações basicas, como quantos emblemas você possui atualmente, seu objetivo de quantos emblemas deseja, e quando deseja começar a contar e também quando o evento termina, tudo com uma validação simples, e após entrar novamente, não será mais necessário registrar os dados... <br><h2><a onclick='parent.changePicture(`./projects/managerpts/img/img3.png`)'>Pagina da Tabela</a></h2>Nesta pagina temos o inicio do layout, ele ainda está em desenvolvimente e em breve pegara as informações que foram passadas na pagina de login para manipular corretamente o conteúdo! <br><h2><a onclick='parent.changePicture(`./projects/managerpts/img/img4.png`)'>Pagina de Informações</a></h2>Nesta outra secção da pagina de informações teremos detalhes sobre a situação atual, podendo se expandir no futuro, este local se obtem uma informação mais detalhada e ajustes mais precisos, como a injeção de dados em dias especificos, e também infromações completas sobre as derrotas vitorias e os pontos necessario e restantes da temporada. <hr> Concluindo, este projeto foi criado para administrar os emblemas ganhos durante a temporada, porém ele funcionou tão bem, que meu irmão continuou utilizando ele mesmo após cumprir sua meta de 2000 emblemas. Com este projeto tive mais noçoes de lidar com localstorage, datas, e funções, apesar do meu foco era terminar o mais rapido possivel, então consegui entregar um resultado usavel em 4 dias, como o objetivo era fazer o mais funcional e rapido possivel, sei que muitas coisas estão desotimizadas e o codigo está um pouco dificil de se entender, porém funciona como eu planejava!",
+    "linkRep": "https://github.com/DinowSauron/Points-Manager-LoL",
+    "linkSite": "https://dinowsauron.github.io/Points-Manager-LoL/",
+    "videosThumb": [],
+    "videos": [],
+    "images": [
+        "/img/img1.png",
+        "/img/img2.png",
+        "/img/img3.png",
+        "/img/img4.png",
+        "/img/img5.png",
+        "/img/imgPreview1.png",
+        "/img/imgPreview2.png"
+    ],
+    "tags": ["Learning", "Github Page"],
+    "other": "<a onclick='parent.changePicture(`./projects/rep/img/img1.png`)'>"
+}

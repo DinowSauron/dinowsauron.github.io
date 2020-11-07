@@ -3,10 +3,11 @@
     "text": "Descrição__AcceptedTags_a_strong_hr_h2_h3toCenter_",
     "linkRep": "Link",
     "linkSite": "Site",
-    "videosThumb": [],
+    "videosThumb": [ "1700x950" ],
     "videos": [],
     "images": [
         "/img/NecessárioUmaFoto.png"
     ],
-    "tags": ["Tag"]
+    "tags": ["Learning", "Github Page", "Games", "UI Clone"],
+    "other": "<a onclick='parent.changePicture(`./projects/nlw3/img/img1.png`)'>"
 }
