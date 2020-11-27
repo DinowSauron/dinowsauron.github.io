@@ -8,5 +8,6 @@ const archives = false ? ["inprogress"] :
     "nlw3",
     "glassgoogle",
     "precisiontest",
+    "display-flex",
     "managerpts"
 ];
