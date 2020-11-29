@@ -1,0 +1,20 @@
+{
+    "name": "Steam App",
+    "text": "Este projeto é apenas para fins de aprendizado realizado sem ajuda de cursos/tutoriais. Como estou tentando utilizar imagens livres de direitos autorais, apenas por costume, então o clone não tem como ser perfeito, porem é sim possivel confundir-se pois estes pequenos detalhes só são percebidos quando colocado o original e o clone lado a lado.<hr> O que eu mais gostei deste projeto é a semelhança com o original, um fator que eu não gostei é a falta das imagens dos jogos.<br><br>Lembre-se que este é um clone do aplicativo desktop da <a href='https://store.steampowered.com/about/'>STEAM</a> (valve.inc), portanto não há nenhuma funcionalidade além da navegação e <strong>TODO</strong> o seu conteúdo e informações devem ser considerados apenas um exemplo.<h2>Tecnologias Utilizadas</h2> <li>HTML5</li><li>CSS3</li><li>JavaScript</li>",
+    "linkRep": "https://github.com/DinowSauron/SteamApp-UI_Clone",
+    "linkSite": "https://dinowsauron.github.io/SteamApp-UI_Clone/",
+    "videosThumb": [],
+    "videos": [],
+    "images": [
+        "/img/thumb.png",
+        "/img/steam1.png",
+        "/img/steam2.png",
+        "/img/steam3.png",
+        "/img/steam4.png",
+        "/img/first-day.png",
+        "/img/second-day.png",
+        "/img/third-day.png"
+    ],
+    "tags": ["Learning", "Github Page", "UI Clone"],
+    "other": "<a onclick='parent.changePicture(`./projects/nlw3/img/img1.png`)'>"
+}

@@ -9,5 +9,6 @@ const archives = false ? ["inprogress"] :
     "glassgoogle",
     "precisiontest",
     "display-flex",
-    "managerpts"
+    "managerpts",
+    "steam-clone",
 ];
