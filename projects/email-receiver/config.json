@@ -1,0 +1,17 @@
+{
+    "name": "Email Register Receiver",
+    "text": "Um exemplo de cadastro via email, onde todos os dados são transmitidos pelo servidor e um email é gerado <br><br>Este repositório foi criado após a necessidade de um cliente receber seus cadastros por e-mail, não tenho ideia de como funciona, mas isso é com eles, mas tenho ideia de como funciona o código, e como pode ser reproduzido até em outras situações, foi divertido! <br><br>Nesse repositório o e-mail retornado irá para o e-mail que você preencheu, o que não é correto, pois o cadastro deve ser com um e-mail da empresa, mas para fins de visualização coloco para enviar o e-mail para o que está listado no formulário.<br><br><hr> Veja este repositório rodando agora! sim, preencha o formulário e receberá um email de volta! <br><br> Recomendo assistir o video inteiro para obter uma noção do funcionamento completo!",
+    "linkRep": "https://github.com/DinowSauron/Email-Register-Receiver",
+    "linkSite": "https://mail-register.herokuapp.com/",
+    "videosThumb": [ "/img/thumb.png" ],
+    "videos": [ "eRqlmFnaDe4" ],
+    "images": [
+        "/img/fot1.png",
+        "/img/fot2.png",
+        "/img/fot3.png",
+        "/img/fot4.png",
+        "/img/fot5.png"
+    ],
+    "tags": ["Learning", "Heroku Server"],
+    "other": "<a onclick='parent.changePicture(`./projects/nlw3/img/img1.png`)'>"
+}

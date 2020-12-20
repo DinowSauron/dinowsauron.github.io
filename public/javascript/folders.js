@@ -9,6 +9,7 @@ const archives = false ? ["inprogress"] :
     "glassgoogle",
     "precisiontest",
     "display-flex",
+    "email-receiver",
     "managerpts",
     "steam-clone",
 ];
