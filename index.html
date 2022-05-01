@@ -42,7 +42,17 @@
   </ul>
 
   <script>
-    window.location.replace("https://luizclaudiocardoso.vercel.app/");
+    const hasVisited = sessionStorage.getItem("visited") || false;
+    
+    if(hasVisited && window.confirm("Está inserindo o mesmo link novamente...\nVocê deseja ver o projeto antigo?")) {
+      window.location.href = "https://dinowsauron.github.io/old";
+      
+    }else {
+      window.location.href = "https://luizclaudiocardoso.vercel.app/";
+    }
+    
+    sessionStorage.setItem("visited", true);
+    
   </script>
 </body>
 </html>
